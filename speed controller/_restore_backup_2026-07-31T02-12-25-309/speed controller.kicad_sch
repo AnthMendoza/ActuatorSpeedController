@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d1563cef-5761-425d-b6d9-b87b510bc499")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 63.5 39.37)
+		(size 52.07 102.87)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5855b5d9-9c8e-40c3-bcc9-890ea03cd032")
+		(property "Sheetname" "STM32F405RGTx"
+			(at 63.5 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32F405RGTx.kicad_sch"
+			(at 63.5 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 53.34)
+		(size 31.75 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "66f9ef91-fefc-4754-a9e1-fde24c7f3cc6")
+		(property "Sheetname" "DRV8323RSRGZT"
+			(at 172.72 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRV8323RSRGZT.kicad_sch"
+			(at 172.72 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
