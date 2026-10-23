@@ -2901,28 +2901,10 @@
 		(uuid "b5248490-b51b-4765-b018-8163ecca22f5")
 	)
 	(junction
-		(at 40.64 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "011f7c69-3fb0-4a18-93d7-ad84ca0c0ee7")
-	)
-	(junction
 		(at 139.7 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14cafd1b-96d4-4878-b6af-6c16fb74a85e")
-	)
-	(junction
-		(at 50.8 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22395c72-ff18-44c4-b538-bbdfe5f6eecc")
-	)
-	(junction
-		(at 129.54 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27cf41cb-8355-4d24-ae06-e1c0413f6cda")
 	)
 	(junction
 		(at 124.46 63.5)
@@ -2967,6 +2949,24 @@
 		(uuid "70b991c3-b6d7-49fe-85fa-6dca3628e0b4")
 	)
 	(junction
+		(at 40.64 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a879a9-4693-471b-9a55-d3dea692ecec")
+	)
+	(junction
+		(at 50.8 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b5a6dad-f756-4a14-8283-9adad8d7aedd")
+	)
+	(junction
+		(at 40.64 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "920b1d4e-1351-4e3d-b69c-d7280f050e8a")
+	)
+	(junction
 		(at 217.17 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2985,22 +2985,22 @@
 		(uuid "9f3a3fd6-0e99-4b85-9a12-77f14fa409bd")
 	)
 	(junction
+		(at 50.8 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fff494d-6814-416e-b0f1-0919fe010a8b")
+	)
+	(junction
 		(at 30.48 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a607e448-6b12-4345-bce2-236cb54bf38d")
 	)
 	(junction
-		(at 50.8 36.83)
+		(at 129.54 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf3a21bd-3185-499b-a24d-9d7c6902c9f1")
-	)
-	(junction
-		(at 177.8 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfac949a-1aa4-4dfe-bfed-88cd5b3cab93")
+		(uuid "c984d477-e12f-4baa-b16b-907c63d9255c")
 	)
 	(junction
 		(at 30.48 31.75)
@@ -3009,10 +3009,10 @@
 		(uuid "d593c34c-6b22-47cf-85ca-16e2f0554789")
 	)
 	(junction
-		(at 40.64 31.75)
+		(at 177.8 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebbb1478-a358-480d-99b3-9489a49f775c")
+		(uuid "d924078d-977e-43d3-9a3d-396e733b14a0")
 	)
 	(junction
 		(at 231.14 111.76)
@@ -3066,16 +3066,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 166.37) (xy 129.54 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0250df30-ebfe-4c7a-810c-87b842cd2d01")
-	)
-	(wire
-		(pts
 			(xy 191.77 48.26) (xy 187.96 48.26)
 		)
 		(stroke
@@ -3086,26 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 36.83) (xy 50.8 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4f9063-25d8-48fa-8539-a28b7391bc0d")
-	)
-	(wire
-		(pts
-			(xy 30.48 36.83) (xy 40.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14909517-6342-42fc-996d-89fc0d6af500")
-	)
-	(wire
-		(pts
 			(xy 25.4 30.48) (xy 25.4 31.75)
 		)
 		(stroke
@@ -3113,6 +3083,16 @@
 			(type default)
 		)
 		(uuid "22ff410e-cbce-4ddd-b399-74d94485a801")
+	)
+	(wire
+		(pts
+			(xy 50.8 31.75) (xy 59.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249d317a-deb2-4441-9fc1-46d8f3585d9f")
 	)
 	(wire
 		(pts
@@ -3266,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 59.69 36.83)
+			(xy 30.48 36.83) (xy 40.64 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3376,13 +3356,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 166.37) (xy 139.7 166.37)
+			(xy 127 166.37) (xy 129.54 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65464e24-9e82-4859-adbe-4fc1cc70bb94")
+	)
+	(wire
+		(pts
+			(xy 129.54 166.37) (xy 139.7 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba4ae7f-e623-40eb-b388-7e111950f1c0")
 	)
 	(wire
 		(pts
@@ -3403,6 +3393,16 @@
 			(type default)
 		)
 		(uuid "7170f2c7-5814-48e5-be34-170112d014cc")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f75439-fdff-4114-8307-3ab9e339c30f")
 	)
 	(wire
 		(pts
@@ -3456,16 +3456,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 45.72) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8641cdb0-0f1d-4903-a5ec-76d30cdebdee")
-	)
-	(wire
-		(pts
 			(xy 97.79 62.23) (xy 72.39 62.23)
 		)
 		(stroke
@@ -3513,16 +3503,6 @@
 			(type default)
 		)
 		(uuid "8e603979-2515-4b85-b9f9-975fc2a200f7")
-	)
-	(wire
-		(pts
-			(xy 40.64 31.75) (xy 50.8 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f51afd9-0cda-40f9-9b1e-9514a6cba1ea")
 	)
 	(wire
 		(pts
@@ -3616,6 +3596,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 36.83) (xy 50.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afda30bb-e9f8-4a5d-8e24-829d82f0bb02")
+	)
+	(wire
+		(pts
 			(xy 127 60.96) (xy 127 63.5)
 		)
 		(stroke
@@ -3646,6 +3636,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 45.72) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b900fcc3-0c26-4061-8954-244baa33f79b")
+	)
+	(wire
+		(pts
+			(xy 50.8 36.83) (xy 59.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba02bc37-eeeb-401d-816b-9b23b9fdb880")
+	)
+	(wire
+		(pts
 			(xy 92.71 147.32) (xy 92.71 151.13)
 		)
 		(stroke
@@ -3673,16 +3683,6 @@
 			(type default)
 		)
 		(uuid "c8649eb6-c0f1-4fad-8eec-0a987211d86c")
-	)
-	(wire
-		(pts
-			(xy 50.8 31.75) (xy 59.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbff0b72-0202-44a6-a362-b128e3942ae3")
 	)
 	(wire
 		(pts
@@ -4408,7 +4408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4419,7 +4419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
 			(at 30.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4451,6 +4451,88 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b496067-a4e2-416e-85af-9212da499152")
+		(property "Reference" "C20"
+			(at 53.34 33.0262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 35.5662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 50.8 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 50.8 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e358c95b-1106-4efb-a833-81ea2a942cb7")
+		)
+		(pin "1"
+			(uuid "224cf3b3-072d-49f9-9c10-198f9e232b49")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4529,6 +4611,88 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1221de2a-7419-4851-a912-9ad06ca8948f")
+		(property "Reference" "C35"
+			(at 74.93 64.7762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 74.93 67.3162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 72.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ec64541-c637-48f4-a046-59e908345784")
+		)
+		(pin "1"
+			(uuid "b0d70f01-c557-4432-a10a-976ba8b721bf")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4691,88 +4855,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 237.49 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dc39cfa-ac86-42f7-baff-356c681f1740")
-		(property "Reference" "C35"
-			(at 240.03 104.1462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10p"
-			(at 240.03 106.6862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 237.49 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4f0a1fe-fbb4-4a46-9045-7e0b5ae8805d")
-		)
-		(pin "1"
-			(uuid "3fc3d0a3-ac44-429a-9235-2721310193d1")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 177.8 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -4782,7 +4864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ee4456c-7c11-46e5-bb11-b7c90d64db33")
+		(uuid "29841bb9-c941-4239-8ae6-4a8e37ca2c01")
 		(property "Reference" "C4"
 			(at 180.34 46.9962 0)
 			(show_name no)
@@ -4805,7 +4887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4816,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A106ME11D/12091056"
 			(at 177.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4838,11 +4920,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "fc803686-865d-439a-a7b9-6c0f46c796a4")
-		)
 		(pin "2"
-			(uuid "140b1a78-842d-43a7-b358-183dd33356d7")
+			(uuid "248e537e-c7e8-4ddd-aae6-3151d4336215")
+		)
+		(pin "1"
+			(uuid "b710918a-3790-47f4-bd07-2a2a7a5270ad")
 		)
 		(instances
 			(project "speed controller"
@@ -4887,7 +4969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.77 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +4980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN100/302748"
 			(at 191.77 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4930,88 +5012,6 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47477fa3-8894-45f5-b3a2-b81643c9875c")
-		(property "Reference" "C18"
-			(at 95.25 143.5162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 95.25 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3ce42622-cb19-465b-876a-50b57e450b76")
-		)
-		(pin "1"
-			(uuid "10ce4ab5-48bd-4efe-8b90-612e1fb6be3e")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5090,6 +5090,88 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 223.52 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3f716c-61c7-4cc2-8825-5727fc8be1a8")
+		(property "Reference" "R7"
+			(at 226.06 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 226.06 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-2RKF1003X/192081"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df2ff60e-fb50-46fe-b8c9-7abc6404b775")
+		)
+		(pin "2"
+			(uuid "6d8ce89f-f1d9-4b24-85e7-e271169af9f7")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5207,7 +5289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5218,7 +5300,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"
 			(at 85.09 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5525,88 +5607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ae0f240-d508-4048-bb0a-cbe2eb682ac4")
-		(property "Reference" "C20"
-			(at 53.34 33.0262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 53.34 35.5662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ae005e1-bd65-41fc-acb0-4ffa5ae6c17f")
-		)
-		(pin "1"
-			(uuid "0211a585-9137-4829-9c66-b708bac09c66")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 173.99 45.72 0)
 		(unit 1)
@@ -5679,6 +5679,170 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a9bc04-d5ff-429d-a519-463b5127459e")
+		(property "Reference" "C19"
+			(at 43.18 33.0262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 43.18 35.5662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ac449e6-3bf4-4d82-be23-7e1f0f42049f")
+		)
+		(pin "1"
+			(uuid "7a64a1d3-26ee-41c0-a404-ef5b05a440d2")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 59.69 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80e3349a-13ee-414a-8436-67bd7fae2455")
+		(property "Reference" "C21"
+			(at 62.23 33.0262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 62.23 35.5662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 59.69 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 59.69 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8969d3ff-3249-43c0-803b-7c209a0cbd8c")
+		)
+		(pin "1"
+			(uuid "ae869827-0782-4a94-9d66-94b54145dfd5")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5874,7 +6038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5885,7 +6049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A225KO8NNNC/3886698"
 			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5956,7 +6120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -5967,7 +6131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
 			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -5999,88 +6163,6 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 129.54 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90ed61d3-4814-41d3-92ee-8f087dee4800")
-		(property "Reference" "C22"
-			(at 132.08 167.6462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 132.08 170.1862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ba43d32e-8d70-41a8-9758-68cd87f0d55f")
-		)
-		(pin "1"
-			(uuid "febd2340-5102-4c9e-bc03-8d666999bfd9")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6196,7 +6278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6207,7 +6289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6045T220MMGK/2665990"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/LQM2HPN2R2MG0L/1893671"
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6478,88 +6560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 223.52 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3d1e039-e76e-4047-a28c-6df5de775b1f")
-		(property "Reference" "R7"
-			(at 226.06 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 226.06 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99c57821-d73f-4c5e-9c98-ce43c534ad2a")
-		)
-		(pin "1"
-			(uuid "7f6bc5f1-a4bc-44d7-9492-9cb3f4112d65")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 36.83 0)
 		(unit 1)
@@ -6793,6 +6793,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f564ed-f689-4cfe-814e-1df6ad6b3881")
+		(property "Reference" "C22"
+			(at 132.08 167.6462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 132.08 170.1862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7550c76-50a1-49b4-bcba-c6172fa3366e")
+		)
+		(pin "1"
+			(uuid "ab8ee570-24fe-41f6-83a0-a4fd9a84ef36")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 78.74 29.21 0)
 		(unit 1)
@@ -6904,7 +6986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.6 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6915,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X5R226M6R3NT/22639506"
 			(at 228.6 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7032,7 +7114,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 34.29 0)
+		(at 237.49 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7041,9 +7123,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "efbc1f0d-70eb-4985-b348-0e7b2e51d499")
-		(property "Reference" "C19"
-			(at 43.18 33.0262 0)
+		(uuid "eff85f4d-f5f1-4ba0-91aa-ac0daf2ba0af")
+		(property "Reference" "C36"
+			(at 240.03 104.1462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7053,8 +7135,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 43.18 35.5662 0)
+		(property "Value" "10p"
+			(at 240.03 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7064,8 +7146,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7075,8 +7157,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 40.64 34.29 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN100/302748"
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7087,7 +7169,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 40.64 34.29 0)
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7098,15 +7180,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1321a5b-9f4a-4bb7-8178-5a4e9803424d")
+			(uuid "40456571-4804-4b72-a8a1-faf616ae8c78")
 		)
 		(pin "1"
-			(uuid "1a205ebe-7108-4bbf-a029-a716309a74c3")
+			(uuid "db52b07a-b13f-44b6-aaea-23aa580d3833")
 		)
 		(instances
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "C19")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7114,7 +7196,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 59.69 34.29 0)
+		(at 92.71 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7123,91 +7205,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f151a900-bb7e-4aa7-be40-426731c3d7d9")
-		(property "Reference" "C21"
-			(at 62.23 33.0262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 62.23 35.5662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d222d040-f691-4c07-80a9-950e64183bd4")
-		)
-		(pin "1"
-			(uuid "c53a38c6-1fa2-4a4e-99af-ce86ec95ce82")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/5855b5d9-9c8e-40c3-bcc9-890ea03cd032"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f452fdaa-866e-4a3a-b3e1-d977734655c3")
+		(uuid "f04b5475-60d8-4337-92f5-540df9b14234")
 		(property "Reference" "C16"
-			(at 74.93 64.7762 0)
+			(at 95.25 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7217,8 +7217,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 74.93 67.3162 0)
+		(property "Value" "2.2u"
+			(at 95.25 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7228,8 +7228,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 72.39 66.04 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7239,8 +7239,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 66.04 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A225KO8NNNC/3886698"
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7251,7 +7251,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 66.04 0)
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7262,10 +7262,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5c04419-311f-4423-92ba-fa32c29279d2")
+			(uuid "af350fd5-87e3-4382-8079-59073b3ec3fd")
 		)
 		(pin "1"
-			(uuid "4ce6d01a-b5c4-4e70-aa62-de880a1e29ba")
+			(uuid "44ce1d2f-f0fc-47fc-bc6f-103c0e8ef09b")
 		)
 		(instances
 			(project "speed controller"
@@ -7307,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS80833JGNTR3"
+		(property "Footprint" "Inductor_SMD:ECS-80-8-33-JGN-TR3"
 			(at 227.33 197.79 0)
 			(hide yes)
 			(show_name no)

@@ -1446,6 +1446,12 @@
 		(uuid "0944195c-1b93-4b5d-b8c6-0c15c3f35160")
 	)
 	(junction
+		(at 231.14 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1868939e-b5a7-4c6e-beff-cadd34c0dab4")
+	)
+	(junction
 		(at 231.14 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1470,10 +1476,10 @@
 		(uuid "49c58985-43cf-429f-9410-8b8e6bdc3d94")
 	)
 	(junction
-		(at 181.61 101.6)
+		(at 231.14 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c249da3-9f09-49f4-b374-0813336930b6")
+		(uuid "4b97d528-0b7d-4976-b7cb-6a6773d6b788")
 	)
 	(junction
 		(at 231.14 40.64)
@@ -1488,16 +1494,22 @@
 		(uuid "61e3938d-1e30-4b75-b653-bc4b8618e01f")
 	)
 	(junction
+		(at 181.61 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8404a6a8-2e3d-4551-adaa-933b22b7c1ca")
+	)
+	(junction
 		(at 143.51 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac4560f9-9967-45af-84f6-38259b29b760")
 	)
 	(junction
-		(at 92.71 158.75)
+		(at 181.61 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1295b38-3980-43c3-83e4-d792a3452399")
+		(uuid "b0325551-000e-4f0d-8692-f176ca9cdb8e")
 	)
 	(junction
 		(at 231.14 58.42)
@@ -1506,28 +1518,22 @@
 		(uuid "b26ca011-d5ef-406d-aebc-6e470792396d")
 	)
 	(junction
-		(at 181.61 106.68)
+		(at 92.71 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0e44228-2433-467c-a436-7342ab983a29")
+		(uuid "bea5e02a-a4d3-4741-afb9-2ebdc849b08e")
 	)
 	(junction
-		(at 231.14 144.78)
+		(at 92.71 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c67dbf4f-5a2c-4b05-89ec-e0030fb1a629")
+		(uuid "c6bb9f41-6bea-4cb2-8893-2d41795bc1ba")
 	)
 	(junction
 		(at 60.96 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4b191aa-c514-4c7e-9f17-e9b53fa36d6d")
-	)
-	(junction
-		(at 231.14 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5e49ea6-8088-4e15-a8ea-5d17f0f92255")
 	)
 	(junction
 		(at 137.16 134.62)
@@ -1540,12 +1546,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef726944-6183-40a9-a394-cebb12f1d78f")
-	)
-	(junction
-		(at 92.71 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0c69e55-4dd1-474d-a2c8-b52dd05ab966")
 	)
 	(wire
 		(pts
@@ -1809,7 +1809,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 153.67) (xy 102.87 153.67)
+			(xy 87.63 153.67) (xy 92.71 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1886,6 +1886,16 @@
 			(type default)
 		)
 		(uuid "981ca2e7-3cf1-4d88-b337-bfc7bcc759a9")
+	)
+	(wire
+		(pts
+			(xy 92.71 153.67) (xy 102.87 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989ba8e0-f26f-4212-9ffa-1cc2fb8f74bf")
 	)
 	(wire
 		(pts
@@ -2126,16 +2136,6 @@
 			(type default)
 		)
 		(uuid "f9778b31-ec9f-4650-9126-4a5748d0d86f")
-	)
-	(wire
-		(pts
-			(xy 87.63 153.67) (xy 92.71 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa39a691-2a08-4b0b-acf1-c9e28b3b0dd4")
 	)
 	(wire
 		(pts
@@ -2590,6 +2590,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 48.26 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dc21a7c-a80d-40be-adeb-41bd531573b8")
+		(property "Reference" "C33"
+			(at 50.8 43.1862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 50.8 45.7262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 48.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A225KO8NNNC/3886698"
+			(at 48.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41ed4c6c-ffde-4f1d-a40b-fb13d1cb2817")
+		)
+		(pin "1"
+			(uuid "54bf6326-a27f-4a94-a42f-1976a22f070c")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 231.14 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2be511-90a2-4b98-8007-8de7f522b403")
+		(property "Reference" "R10"
+			(at 233.68 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1m"
+			(at 233.68 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/WFC08051L000FE66/15908440"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c436384c-7a41-4e8e-8aea-fc0f84f5b156")
+		)
+		(pin "1"
+			(uuid "9073db55-637f-4d63-9dfe-182bd2c49e4a")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IQE022N06LM5CG")
 		(at 228.6 114.3 0)
 		(unit 1)
@@ -2669,6 +2833,88 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "289da539-59c4-462c-a5cc-4ecf67428903")
+		(property "Reference" "C37"
+			(at 95.25 154.9462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 95.25 157.4862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 92.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KP5NNNC/3886660"
+			(at 92.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9b2b5fd-8142-4f52-b390-27e22faafa63")
+		)
+		(pin "1"
+			(uuid "a76157de-a20e-409d-9840-36590805e9bd")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2836,165 +3082,6 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "connector:phase_pads")
-		(at 267.97 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36234c88-e43a-405f-a7b0-da435075d847")
-		(property "Reference" "J3"
-			(at 272.415 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 267.97 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e004cb17-e7ce-4887-aa53-964a57b4de58")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 231.14 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4433c7e9-33e8-44a4-be41-d9366f87d84c")
-		(property "Reference" "R10"
-			(at 233.68 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 233.68 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 231.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b6518055-c71f-45df-93d4-efd260d0a23c")
-		)
-		(pin "1"
-			(uuid "84225843-7f41-4a00-bf55-b17d91b3577f")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3353,88 +3440,6 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
 					(reference "h1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 181.61 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61f53a7e-fbd3-47cc-9c90-d9d24f07d661")
-		(property "Reference" "R9"
-			(at 184.15 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 184.15 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 181.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d257d0b5-7e3c-4254-a5d1-13a5a76eb48b")
-		)
-		(pin "1"
-			(uuid "0f39e900-e6c9-4b39-99b7-0d96aeab54b2")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3844,88 +3849,6 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a97ac3d-7d9c-4548-91d1-1ee016efcc6d")
-		(property "Reference" "C5"
-			(at 95.25 154.9462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 95.25 157.4862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b211965-abe7-4eba-b08f-255e1a68dba5")
-		)
-		(pin "1"
-			(uuid "e634ee0f-ef1e-4bc3-8f9a-99fcdfc83e45")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4432,7 +4355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1m"
 			(at 233.68 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,7 +4366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 231.14 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4454,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/WFC08051L000FE66/15908440"
 			(at 231.14 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4486,88 +4409,6 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 48.26 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adf05a1f-ef1a-40fd-8c08-945b398318f5")
-		(property "Reference" "C1"
-			(at 50.8 43.1862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 50.8 45.7262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7e8d0d8f-749a-4135-8f91-de15a119ebc0")
-		)
-		(pin "1"
-			(uuid "e42c8efe-d774-4026-ba18-1fb28adc7ae6")
-		)
-		(instances
-			(project "speed controller"
-				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4808,6 +4649,83 @@
 		)
 	)
 	(symbol
+		(lib_id "connector:phase_pads")
+		(at 267.97 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6892f5c-a4e1-4c96-ba36-fd9285573e28")
+		(property "Reference" "J2"
+			(at 272.415 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 267.97 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 267.97 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27601aff-e6f9-4873-a91e-ca9d02b67ffa")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IQE022N06LM5CG")
 		(at 228.6 33.02 0)
 		(unit 1)
@@ -4971,8 +4889,8 @@
 		)
 	)
 	(symbol
-		(lib_id "connector:phase_pads")
-		(at 267.97 83.82 0)
+		(lib_id "Device:R_Small")
+		(at 181.61 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4981,29 +4899,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9f3167b-8323-4d5e-b692-825ebd764285")
-		(property "Reference" "J2"
-			(at 272.415 78.74 0)
+		(uuid "d745890c-c54b-496b-ae39-e543d81a34de")
+		(property "Reference" "R9"
+			(at 184.15 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1m"
+			(at 184.15 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 267.97 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 83.82 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,8 +4933,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 267.97 83.82 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/WFC08051L000FE66/15908440"
+			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,8 +4944,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 267.97 83.82 0)
+		(property "Description" "Resistor, small symbol"
+			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,14 +4954,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "e0349400-5f19-457d-bb32-f4eac85636d2")
 		)
 		(pin "1"
-			(uuid "83920f7f-0bc3-43f6-928a-870db8d811e8")
+			(uuid "9b5018e5-c552-436d-ba27-403f27fe3e9e")
 		)
 		(instances
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
-					(reference "J2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5120,6 +5043,83 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "connector:phase_pads")
+		(at 267.97 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2600f91-76ac-481f-9ab5-4c6d65299834")
+		(property "Reference" "J3"
+			(at 272.415 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 267.97 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 267.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d088de00-4d09-45c9-95c4-d2a68db87e77")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/52a1b3d7-555c-449f-b3ef-5a463c05d9e5"
+					(reference "J3")
 					(unit 1)
 				)
 			)
