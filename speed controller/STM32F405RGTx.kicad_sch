@@ -2901,6 +2901,12 @@
 		(uuid "b5248490-b51b-4765-b018-8163ecca22f5")
 	)
 	(junction
+		(at 92.71 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "123aaea4-5801-443b-b830-e55377cee8e4")
+	)
+	(junction
 		(at 139.7 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2913,12 +2919,6 @@
 		(uuid "2b9c1c97-b32b-4127-80b7-c2fe4d82cd18")
 	)
 	(junction
-		(at 92.71 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34ea1ffc-7e05-44f8-a43d-2ae568beaec0")
-	)
-	(junction
 		(at 187.96 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2929,18 +2929,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "656ee61b-67d4-4c46-88a2-054e0dd87d04")
-	)
-	(junction
-		(at 92.71 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ae0d83d-b09d-4d93-8934-8448b23c01b9")
-	)
-	(junction
-		(at 101.6 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d020e86-78b4-4aaf-b859-af836192ff7d")
 	)
 	(junction
 		(at 214.63 111.76)
@@ -3056,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 92.71 137.16)
+			(xy 83.82 137.16) (xy 104.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3083,6 +3071,16 @@
 			(type default)
 		)
 		(uuid "22ff410e-cbce-4ddd-b399-74d94485a801")
+	)
+	(wire
+		(pts
+			(xy 92.71 147.32) (xy 92.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e37ee0-d028-4edb-8bb9-12254212517b")
 	)
 	(wire
 		(pts
@@ -3126,16 +3124,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 137.16) (xy 83.82 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a2bfbb-0916-426e-bbe1-bf3b2ab32369")
-	)
-	(wire
-		(pts
 			(xy 104.14 71.12) (xy 97.79 71.12)
 		)
 		(stroke
@@ -3153,16 +3141,6 @@
 			(type default)
 		)
 		(uuid "3d46db15-13ac-4637-b1c2-91f3fb555348")
-	)
-	(wire
-		(pts
-			(xy 104.14 137.16) (xy 101.6 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a8aa1f-7968-4bb3-be25-957bf889cbc2")
 	)
 	(wire
 		(pts
@@ -3376,16 +3354,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 147.32) (xy 83.82 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7008e35c-a73b-4862-b695-77db704ab7e9")
-	)
-	(wire
-		(pts
 			(xy 72.39 62.23) (xy 72.39 63.5)
 		)
 		(stroke
@@ -3393,6 +3361,16 @@
 			(type default)
 		)
 		(uuid "7170f2c7-5814-48e5-be34-170112d014cc")
+	)
+	(wire
+		(pts
+			(xy 83.82 147.32) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d59126-de1e-4eef-a744-f19fcbb9b7df")
 	)
 	(wire
 		(pts
@@ -3426,16 +3404,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 137.16) (xy 92.71 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eddcd2d-30ca-4e7f-96e2-8e45fd288706")
-	)
-	(wire
-		(pts
 			(xy 121.92 63.5) (xy 124.46 63.5)
 		)
 		(stroke
@@ -3453,6 +3421,16 @@
 			(type default)
 		)
 		(uuid "80444db9-6584-4b86-a27b-2ae7ec1641f6")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81800321-b631-42ef-b4d8-507bc99b52d6")
 	)
 	(wire
 		(pts
@@ -3506,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 139.7) (xy 101.6 139.7)
+			(xy 92.71 139.7) (xy 104.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3556,16 +3534,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 101.6 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e008d72-94dd-4b66-8ab0-f72233e2f741")
-	)
-	(wire
-		(pts
 			(xy 214.63 111.76) (xy 231.14 111.76)
 		)
 		(stroke
@@ -3573,16 +3541,6 @@
 			(type default)
 		)
 		(uuid "a6a769ca-fc8c-42a8-99b5-ce831d0dfdb4")
-	)
-	(wire
-		(pts
-			(xy 92.71 137.16) (xy 83.82 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8054da4-a0a2-46f1-95ba-acaf77f9ac38")
 	)
 	(wire
 		(pts
@@ -3653,16 +3611,6 @@
 			(type default)
 		)
 		(uuid "ba02bc37-eeeb-401d-816b-9b23b9fdb880")
-	)
-	(wire
-		(pts
-			(xy 92.71 147.32) (xy 92.71 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb69715e-7038-4630-9c15-f3f72785e39a")
 	)
 	(wire
 		(pts
@@ -3763,6 +3711,16 @@
 			(type default)
 		)
 		(uuid "f7598560-a6f6-46ea-8834-350ed0890649")
+	)
+	(wire
+		(pts
+			(xy 83.82 137.16) (xy 83.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7ed25f-af5d-476a-8da5-79c7e6226ff4")
 	)
 	(label "PH1_OSC_OUT"
 		(at 237.49 102.87 0)
@@ -6006,7 +5964,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 144.78 0)
+		(at 92.71 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6017,7 +5975,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e8debc8-5e84-4d98-999c-d72b4a999c72")
 		(property "Reference" "C15"
-			(at 86.36 143.5162 0)
+			(at 95.25 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6028,7 +5986,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 86.36 146.0562 0)
+			(at 95.25 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6039,7 +5997,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.82 144.78 0)
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6008,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A225KO8NNNC/3886698"
-			(at 83.82 144.78 0)
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6019,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 144.78 0)
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +7154,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 92.71 144.78 0)
+		(at 83.82 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7204,10 +7162,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f04b5475-60d8-4337-92f5-540df9b14234")
 		(property "Reference" "C16"
-			(at 95.25 143.5162 0)
+			(at 86.36 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7218,7 +7175,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 95.25 146.0562 0)
+			(at 86.36 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7229,7 +7186,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 92.71 144.78 0)
+			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7240,7 +7197,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A225KO8NNNC/3886698"
-			(at 92.71 144.78 0)
+			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7251,7 +7208,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 144.78 0)
+			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
