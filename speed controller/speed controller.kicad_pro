@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.3,
+          "min_thickness": 0.15,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -162,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -546,7 +546,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Downloads/speed_controller_07/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -670,7 +670,7 @@
         "uuid": "d1563cef-5761-425d-b6d9-b87b510bc499"
       }
     ],
-    "used_designators": "J1-3,C1-24,C26,C32-33,C36-39,#PWR1-27,#PWR39-51,Q1-7,U1-2,U4,R8-18",
+    "used_designators": "P2,TP1-3,U1-2,U4,R4,R8-21,C1-24,C26,C32-33,C36-39,Q1-7,#PWR1-27,#PWR39-51,#PWR54-63,J1-4,J6",
     "variants": [
       {
         "description": "Double sidded pcb",
