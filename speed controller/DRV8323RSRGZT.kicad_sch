@@ -2583,6 +2583,12 @@
 		(uuid "0423bb1d-59a8-44a8-ac3b-6d100600a42d")
 	)
 	(junction
+		(at 167.64 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5a85a9-d41c-4ad2-8e00-a5370c9b3b5c")
+	)
+	(junction
 		(at 184.15 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2607,10 +2613,22 @@
 		(uuid "4bca75ea-9f19-427f-9eb0-33acf82d09a8")
 	)
 	(junction
+		(at 167.64 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2ff42a-7195-4010-b798-fcc6f25716d1")
+	)
+	(junction
 		(at 214.63 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71f69c71-2fa6-4249-a98a-3e88c7aefbaa")
+	)
+	(junction
+		(at 167.64 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87d6cfbb-d933-4a24-a1ba-319d926dd586")
 	)
 	(junction
 		(at 207.01 46.99)
@@ -2641,6 +2659,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec73a55-1052-4232-ae9d-561fabb934e7")
+	)
+	(no_connect
+		(at 121.92 60.96)
+		(uuid "08dd33e4-560c-4249-883f-f4a46f24b533")
 	)
 	(wire
 		(pts
@@ -2764,6 +2786,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 21.59) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f27305-0abb-410b-9d96-ada77dc69ea3")
+	)
+	(wire
+		(pts
 			(xy 204.47 69.85) (xy 204.47 76.2)
 		)
 		(stroke
@@ -2804,6 +2836,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 124.46) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e982b39-6491-45e1-b783-adf5ce942679")
+	)
+	(wire
+		(pts
+			(xy 167.64 129.54) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ebebf6-32a5-4b48-87b3-e247e41c84e8")
+	)
+	(wire
+		(pts
 			(xy 204.47 76.2) (xy 204.47 77.47)
 		)
 		(stroke
@@ -2834,7 +2886,17 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 63.5) (xy 266.7 63.5)
+			(xy 167.64 127) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bc0b1c-606b-4508-b6f7-4489a4c43423")
+	)
+	(wire
+		(pts
+			(xy 259.08 63.5) (xy 265.43 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2934,6 +2996,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 127) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9c7f3b-ff08-4eb3-9d11-229b78a34132")
+	)
+	(wire
+		(pts
 			(xy 214.63 64.77) (xy 224.79 64.77)
 		)
 		(stroke
@@ -2951,6 +3023,16 @@
 			(type default)
 		)
 		(uuid "c621753a-5efd-4f1f-a544-f8d713998176")
+	)
+	(wire
+		(pts
+			(xy 261.62 71.12) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb3b5db-b9b7-4362-ba36-ffc27e7d6ac4")
 	)
 	(wire
 		(pts
@@ -3021,6 +3103,26 @@
 			(type default)
 		)
 		(uuid "ecb3094e-160a-43fb-a05c-334eaa91d9fd")
+	)
+	(wire
+		(pts
+			(xy 167.64 21.59) (xy 175.26 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18d4082-11e9-459e-b311-b552f1aace2b")
+	)
+	(wire
+		(pts
+			(xy 167.64 132.08) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2975aff-d169-4970-b8a9-ce280d8323b4")
 	)
 	(wire
 		(pts
@@ -3115,6 +3217,17 @@
 		)
 		(uuid "0e2fe571-66fa-4ab1-a903-4b56500a54ce")
 	)
+	(hierarchical_label "SDI"
+		(shape input)
+		(at 167.64 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "202d951f-4826-41a4-832d-d64d3f8c082f")
+	)
 	(hierarchical_label "SHB"
 		(shape input)
 		(at 121.92 88.9 180)
@@ -3125,6 +3238,17 @@
 			(justify right)
 		)
 		(uuid "21bbbeb3-d93f-4f0c-8044-dc91b2c00a43")
+	)
+	(hierarchical_label "ENABLE"
+		(shape input)
+		(at 121.92 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e7ccde1-8f35-420c-a4db-5a4d28b86ca6")
 	)
 	(hierarchical_label "SNA"
 		(shape input)
@@ -3192,6 +3316,17 @@
 		)
 		(uuid "67a467e9-861e-47d8-bf26-1684e4891f92")
 	)
+	(hierarchical_label "SCS_N"
+		(shape input)
+		(at 167.64 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "688741fc-6a31-4df1-9b67-03a164d96226")
+	)
 	(hierarchical_label "INHC"
 		(shape input)
 		(at 121.92 78.74 180)
@@ -3257,6 +3392,17 @@
 			(justify left)
 		)
 		(uuid "907771bc-eab4-4e09-815d-a16bf054010a")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 167.64 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "948780e9-48a2-4d59-a010-bdbcf28c00ac")
 	)
 	(hierarchical_label "INLA"
 		(shape input)
@@ -3345,6 +3491,28 @@
 			(justify left)
 		)
 		(uuid "ddfcf2b3-cdfb-4106-8255-5158dffe7c55")
+	)
+	(hierarchical_label "Fault"
+		(shape input)
+		(at 261.62 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e04e346e-5de0-42cc-8263-26709ef0c382")
+	)
+	(hierarchical_label "SDO"
+		(shape input)
+		(at 167.64 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0b6ebd6-e5f0-41f5-8b62-0dc5f94b4e4e")
 	)
 	(hierarchical_label "INLC"
 		(shape input)
@@ -3452,7 +3620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 127 90)
+		(at 175.26 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3463,7 +3631,7 @@
 		(fields_autoplaced yes)
 		(uuid "15075a08-83ab-4639-b97a-3372cc47176c")
 		(property "Reference" "#PWR029"
-			(at 173.99 127 0)
+			(at 181.61 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +3642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 126.9999 90)
+			(at 179.07 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3485,7 +3653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 127 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 127 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +3675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 127 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 266.7 63.5 0)
+		(at 265.43 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4179,7 +4347,7 @@
 		(dnp no)
 		(uuid "68b5d523-ecc7-42a5-bba2-406c74bfacf8")
 		(property "Reference" "TP3"
-			(at 270.51 60.6424 0)
+			(at 269.24 60.6424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4190,7 +4358,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 270.51 63.1824 0)
+			(at 269.24 63.1824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4201,7 +4369,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 271.78 63.5 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 63.5 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4223,7 +4391,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 266.7 63.5 0)
+			(at 265.43 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,6 +4486,84 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/66f9ef91-fefc-4754-a9e1-fde24c7f3cc6"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70527515-0a8b-4fb6-b226-69ecb075d886")
+		(property "Reference" "#PWR064"
+			(at 175.26 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24596b25-cb6c-48a2-834f-5b7dc1151102")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/66f9ef91-fefc-4754-a9e1-fde24c7f3cc6"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4556,6 +4802,88 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/66f9ef91-fefc-4754-a9e1-fde24c7f3cc6"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85bb8ac4-6349-488e-8366-53251aff3121")
+		(property "Reference" "C39"
+			(at 177.8 22.8662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 177.8 25.4062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 175.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
+			(at 175.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74c31389-a801-4eb4-9e15-5dd8a760ff10")
+		)
+		(pin "1"
+			(uuid "a4c862c0-fecd-4234-bbca-598cb42d8d8b")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/66f9ef91-fefc-4754-a9e1-fde24c7f3cc6"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5040,6 +5368,84 @@
 			(project "speed controller"
 				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/66f9ef91-fefc-4754-a9e1-fde24c7f3cc6"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 265.43 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8ec9e8f-350c-431f-bd9b-c38c34eed188")
+		(property "Reference" "TP10"
+			(at 269.24 68.2624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 269.24 70.8024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 270.51 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 265.43 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d418b6f9-2a38-4073-b840-5ccbcb1dfb07")
+		)
+		(instances
+			(project "speed controller"
+				(path "/d1563cef-5761-425d-b6d9-b87b510bc499/66f9ef91-fefc-4754-a9e1-fde24c7f3cc6"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
