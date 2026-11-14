@@ -4251,13 +4251,13 @@
 			)
 		)
 		(pin "EN_GATE" input
-			(at 106.68 78.74 180)
+			(at 147.32 87.63 0)
 			(uuid "fd4cc45c-500e-4012-95bb-d4af0495670b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "FAULT" input
@@ -4293,16 +4293,6 @@
 		(pin "HALL_3" input
 			(at 128.27 44.45 90)
 			(uuid "8d72e01b-19d4-4dc6-8040-3d039df56983")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MISO_ADC_EXT2" input
-			(at 147.32 138.43 0)
-			(uuid "2f6cfb65-6759-45e0-9664-cdf93324c737")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,26 +4338,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "RX_SDA_NSS" input
-			(at 147.32 135.89 0)
-			(uuid "f62f6661-de19-493e-89dd-330f5254115b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCK_ADC_EXT" input
-			(at 147.32 143.51 0)
-			(uuid "3d5bc7d0-bb78-4baf-acbc-6f9077655a8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SERVO" input
@@ -4448,16 +4418,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "TX_SCL_MOSI" input
-			(at 147.32 140.97 0)
-			(uuid "856be67f-9729-4854-ad3d-77c9f7fde4c9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "USB_DM" input
@@ -4613,6 +4573,46 @@
 		(pin "VOLTAGE_C" input
 			(at 147.32 129.54 0)
 			(uuid "65f2e228-f771-4332-82c4-6221bcf1a14c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_1_MISO" input
+			(at 147.32 138.43 0)
+			(uuid "e677daaa-27e4-4d52-ad17-ee7a9ea3b3a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_1_MOSI" input
+			(at 147.32 140.97 0)
+			(uuid "70b693f5-f2af-42ec-95bd-ad0c175c8d0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_1_SCK" input
+			(at 147.32 143.51 0)
+			(uuid "fd15cb52-efa6-4387-9311-02f9348d005c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_1_NSS" input
+			(at 147.32 135.89 0)
+			(uuid "b81cd5ef-f6c1-455c-9ff5-8d8984601703")
 			(effects
 				(font
 					(size 1.27 1.27)
